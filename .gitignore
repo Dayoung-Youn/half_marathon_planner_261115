@@ -1,0 +1,20 @@
+# 비밀번호·비밀 설정
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 개인 훈련 기록·백업·보고서
+half-marathon-backup-*.json
+original-training-backup.json
+half-marathon.csv
+half_marathon_training_log.csv
+half-marathon-weekly-report-*.html
+backups/
+reports/
+
+# 로컬 작업 파일
+.netlify/
+.DS_Store
+node_modules/
